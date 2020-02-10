@@ -34,4 +34,16 @@
       </plugin>
     </plugins>
   </build>
-</project>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog-releases</name>
+        <url>http://34.66.11.154:8081/artifactory/libs-release</url>
+  </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog-snapshots</name>
+        <url>http://34.66.11.154:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+   </distributionManagement>
+ </project>
